@@ -1,1 +1,63 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+/*COLORS*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  font-size: 10px;
+}
+
+.homepage {
+  width: 1366px;
+  height: 500px;
+  background-color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.homepage .popup {
+  width: 100%;
+  height: 40px;
+  background-color: #A67744;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.homepage .popup p {
+  font-size: 1.2rem;
+  color: #F7F5E6;
+}
+
+.navigation-bar {
+  width: 1196px;
+  height: 84px;
+  background-color: blueviolet;
+  margin-top: 44px;
+}
+
+.navigation-bar div:first-child {
+  width: 100%;
+  height: 50%;
+  background-color: chartreuse;
+}
+/*# sourceMappingURL=main.css.map */
