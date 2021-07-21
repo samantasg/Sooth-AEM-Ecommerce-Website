@@ -9,7 +9,10 @@ function Hero () {
                 <p>A healthier you from the inside out. We’ve sourced the <span>cleanest ingredients to create a line of clean skin care</span>treatments that leave you feeling your best</p>
                 <button className="btn-2">Shop products</button>
             </div>
-            <div className="hero-2"></div>
+            <div className="hero-2">
+                <div className="img-1"></div>
+                <div className="img-2"></div>
+            </div>
         </div>
     );
 }

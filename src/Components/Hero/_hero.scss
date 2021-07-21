@@ -60,6 +60,27 @@
     }
 
     .hero-2{
-        background-color: blue;
+        // background-color: turquoise;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+        // .img-1{
+        //     width: 200px;
+        //     height: 200px;
+        //     background-image: url("/src/assets/annie-spratt.png");   
+        // }
+
+        .img-2{
+            width: 400px;
+            height: 400px;
+            background-image: url("/src/assets/ezcema.png");
+            bottom: 10px;
+            left: -55px;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            position: absolute;
+        }
     }
 }
