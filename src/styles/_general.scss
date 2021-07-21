@@ -1,7 +1,19 @@
 //VARIABLES
+
 /*COLORS*/
 $bgc1: #A67744;
+$bgc2: #EEF3F4;
 $fontcolor1: #F7F5E6;
+$fontcolor2: #354E57;
+
+/*FONTS*/
+$primaryFont: "Proxima Nova";
+
+//FONT IMPORTS
+@font-face {
+	font-family: "Proxima Nova";
+	src: url("../fonts/ProximaNovaFont.otf");
+}
 
 //RESET STYLES
 * {
