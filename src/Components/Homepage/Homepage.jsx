@@ -1,5 +1,6 @@
 import React from "react";
 import Navigation from "../Navigation/Navigation";
+import Hero from "../Hero/Hero";
 
 function Homepage(){
     return (
@@ -8,6 +9,8 @@ function Homepage(){
                 <p>Free Standard Shipping on orders over $99.99</p>
             </div>
             <Navigation></Navigation>
+            <Hero></Hero>
+
         </section>
     );
 }

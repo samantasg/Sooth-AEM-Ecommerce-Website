@@ -1,7 +1,6 @@
 .navigation-bar{
     width: 1196px;
     height: 84px;
-    background-color:cadetblue;
     margin-top: 44px;
     color: $fontcolor2;
     font-family: $primaryFont;
@@ -16,12 +15,20 @@
             ul li{
                 display: inline;
                 font-size: 1.2rem;
+                text-transform: uppercase;
+                letter-spacing: 0.6px;
                 &:first-child{
                     margin-right: 45px;
+                }
+                a {
+                    &:visited {
+                        color: $fontcolor2;
+                    }
                 }
             }
             p{
             font-size: 3.2rem;
+            letter-spacing: 1.6px;
             }
         }
     }
@@ -37,7 +44,14 @@
                 display: inline;
                 font-size: 1.6rem;
                 margin-left: 62px;
+                letter-spacing: 0.8px;
+                a {
+                    &:visited {
+                        color: $fontcolor2;
+                    }
+                }
             }
+            
         }
     }
 }

@@ -1,0 +1,65 @@
+.hero{
+    width: 1196px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-family: $primaryFont;
+    color: $fontcolor2;
+
+    div{
+        width: 530px;
+        height: 400px;
+       margin-top: 100px;
+    }
+
+    .hero-1{
+        // background-color: aquamarine;
+
+        .btn-1{
+            width: 50px;
+            height: 28px;
+            background-color: $bgc3;
+            border: none;
+            font-size: 1.2rem;
+        }
+
+        h2{
+            font-size: 4.8rem;
+            padding: 14px 0;
+            line-height: 58px;
+
+            span{
+                display: block;
+            }
+        }
+
+        p{
+            font-size: 1.6rem;
+            line-height: 24px;
+
+            span{
+                display: block;
+            }
+        }
+        .btn-2{
+            width: 173px;
+            height: 35px;
+            background-color: transparent;
+            border: none;
+            font-size: 1.4rem;
+            border: 1px solid $fontcolor2;
+            color: $fontcolor3;
+            margin-top: 28px;
+
+            &:hover{
+                cursor: pointer;
+                background-color: $fontcolor2;
+                color: $fontcolor1;
+            }
+        }
+    }
+
+    .hero-2{
+        background-color: blue;
+    }
+}
