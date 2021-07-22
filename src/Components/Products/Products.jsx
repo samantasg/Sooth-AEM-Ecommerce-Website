@@ -1,4 +1,5 @@
 import React from "react";
+import Product from "../Product/Product";
 
 function Products () {
     return(
@@ -8,9 +9,15 @@ function Products () {
                 <p>Explore our innovative skincare products</p>
             </div>
             <div className="products-section">
-                <div>
+                <div className="products-section-text">
                     <p>Most Popular</p>
                     <p>Shop all products</p>
+                </div>
+                <div className="products-section-box">
+                    <Product></Product>
+                    <Product></Product>
+                    <Product></Product>
+                    <Product></Product>
                 </div>
             </div>
         </section>

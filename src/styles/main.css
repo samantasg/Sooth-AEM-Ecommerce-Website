@@ -207,8 +207,7 @@ html {
 
 .products {
   width: 1366px;
-  height: 500px;
-  background-color: darkcyan;
+  background-color: #EEF3F4;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -219,6 +218,7 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-family: "Proxima Nova";
 }
 
 .products .products-text-box {
@@ -256,8 +256,98 @@ html {
 
 .products .products-section {
   width: 1130px;
-  height: 200px;
   margin-top: 82px;
-  background-color: red;
+  color: #2E2E22;
+  margin-bottom: 111px;
+}
+
+.products .products-section .products-section-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 29px;
+}
+
+.products .products-section .products-section-text p {
+  font-size: 1.4rem;
+  line-height: 17px;
+}
+
+.products .products-section .products-section-box {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 42px;
+}
+
+.product {
+  width: 251px;
+  height: 462px;
+  background-color: #F7F7F7;
+  position: relative;
+}
+
+.product .product-stamp {
+  width: 27px;
+  height: 12px;
+  background-color: #EEF3F4;
+  position: absolute;
+  top: 12px;
+  left: 15px;
+  padding: 12px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.product .product-bg-img {
+  width: 100%;
+  height: 346px;
+  background-image: url("/src/assets/Cream-2.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.product .product-info {
+  margin-top: 14px;
+  background-color: #EEF3F4;
+}
+
+.product .product-info p {
+  font-size: 1.2rem;
+  line-height: 16px;
+  margin-bottom: 6px;
+}
+
+.product .product-info p:first-child {
+  font-size: 1.4rem;
+  line-height: 17px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
+.product .product-info button {
+  border: none;
+  width: 100%;
+  height: 35px;
+  background-color: transparent;
+  font-size: 1.2rem;
+  border: 1px solid #2E2E22;
 }
 /*# sourceMappingURL=main.css.map */
