@@ -36,27 +36,28 @@
         p{
             font-size: 1.6rem;
             line-height: 24px;
+            margin-bottom: 28px;
 
             span{
                 display: block;
             }
         }
-        .btn-2{
-            width: 173px;
-            height: 35px;
-            background-color: transparent;
-            border: none;
-            font-size: 1.4rem;
-            border: 1px solid $fontcolor2;
-            color: $fontcolor3;
-            margin-top: 28px;
+        // .btn-2{
+        //     width: 173px;
+        //     height: 35px;
+        //     background-color: transparent;
+        //     border: none;
+        //     font-size: 1.4rem;
+        //     border: 1px solid $fontcolor2;
+        //     color: $fontcolor3;
+        //     margin-top: 28px;
 
-            &:hover{
-                cursor: pointer;
-                background-color: $fontcolor2;
-                color: $fontcolor1;
-            }
-        }
+        //     &:hover{
+        //         cursor: pointer;
+        //         background-color: $fontcolor2;
+        //         color: $fontcolor1;
+        //     }
+        // }
     }
 
     .hero-2{

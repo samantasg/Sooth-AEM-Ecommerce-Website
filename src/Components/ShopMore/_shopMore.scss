@@ -1,0 +1,48 @@
+.shop-more{
+    width: $maxWidth;
+    height: 731px;
+    background-color:aquamarine;
+    font-family: $primaryFont;
+    display: flex;
+
+    .shop-more-info{
+        width: 50%;
+        height: 100%;
+        background-color: $bgc4;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    div{
+        width: 465px;
+
+        h2{
+            font-size: 4.0rem;
+            line-height: 55px;
+            letter-spacing: -1px;
+            font-weight: 700;
+            color: $white;
+        }
+
+        p{
+            font-size: 1.4rem;
+            padding: 23px 0 55px 0;
+            line-height: 24px;
+            color: $fontcolor4;
+        }
+
+        span{
+            display: block;
+        }
+    }
+
+        
+    }
+
+    .shop-more-img{
+        width: 50%;
+        height: 100%;
+        background-image: url("/src/assets/man-in-blue-top.png");
+	    background-size: 110%;
+    }
+}

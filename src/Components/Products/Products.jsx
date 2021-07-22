@@ -14,10 +14,10 @@ function Products () {
                     <p>Shop all products</p>
                 </div>
                 <div className="products-section-box">
-                    <Product></Product>
-                    <Product></Product>
-                    <Product></Product>
-                    <Product></Product>
+                    <Product productName="Acne Cream" productPrice="24.99"></Product>
+                    <Product productName="Vitiligio Solution" productPrice="24.99"></Product>
+                    <Product productName="Ezcema Cream" productPrice="24.99"></Product>
+                    <Product productName="Sunburn Ointment" productPrice="24.99"></Product>
                 </div>
             </div>
         </section>
