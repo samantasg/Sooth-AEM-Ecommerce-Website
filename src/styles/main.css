@@ -119,6 +119,20 @@ html {
   color: #354E57;
 }
 
+.layout {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .hero {
   width: 1196px;
   height: 100%;
@@ -158,27 +172,11 @@ html {
 .hero .hero-1 p {
   font-size: 1.6rem;
   line-height: 24px;
+  margin-bottom: 28px;
 }
 
 .hero .hero-1 p span {
   display: block;
-}
-
-.hero .hero-1 .btn-2 {
-  width: 173px;
-  height: 35px;
-  background-color: transparent;
-  border: none;
-  font-size: 1.4rem;
-  border: 1px solid #354E57;
-  color: #2E2E22;
-  margin-top: 28px;
-}
-
-.hero .hero-1 .btn-2:hover {
-  cursor: pointer;
-  background-color: #354E57;
-  color: #F7F5E6;
 }
 
 .hero .hero-2 {
@@ -349,5 +347,60 @@ html {
   background-color: transparent;
   font-size: 1.2rem;
   border: 1px solid #2E2E22;
+}
+
+.shop-more {
+  width: 1366px;
+  height: 731px;
+  background-color: aquamarine;
+  font-family: "Proxima Nova";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.shop-more .shop-more-info {
+  width: 50%;
+  height: 100%;
+  background-color: #547665;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.shop-more .shop-more-info div {
+  width: 465px;
+}
+
+.shop-more .shop-more-info div h2 {
+  font-size: 4.0rem;
+  line-height: 55px;
+  letter-spacing: -1px;
+  font-weight: 700;
+  color: white;
+}
+
+.shop-more .shop-more-info div p {
+  font-size: 1.4rem;
+  padding: 23px 0 55px 0;
+  line-height: 24px;
+  color: #EEF2F4;
+}
+
+.shop-more .shop-more-info div span {
+  display: block;
+}
+
+.shop-more .shop-more-img {
+  width: 50%;
+  height: 100%;
+  background-image: url("/src/assets/man-in-blue-top.png");
+  background-size: 110%;
 }
 /*# sourceMappingURL=main.css.map */

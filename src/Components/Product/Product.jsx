@@ -1,6 +1,6 @@
 import React from "react";
 
-function Product() {
+function Product(props) {
     return (
         <div className="product">
             <div className="product-bg-img"></div>
@@ -8,9 +8,9 @@ function Product() {
                 <p>New!</p>
             </div>
             <div className="product-info">
-            <p>Acne Cream</p>
+            <p>{props.productName}</p>
             <p>All Natural Ingredients</p>
-            <p>$24.99</p>
+            <p>${props.productPrice}</p>
             <button>Add to cart</button>
             </div>
         </div>
