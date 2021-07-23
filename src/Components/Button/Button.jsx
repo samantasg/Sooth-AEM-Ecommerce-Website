@@ -34,7 +34,7 @@ export const BlueButton = styled(Button)`
 
 export const WhiteButton = styled(Button)`
   background-color: transparent;
-  padding: 0.75rem 2.5rem;;
+  padding: 0.75rem 2.5rem;
   border: 1px solid white;
   color: white;
   &:hover {
