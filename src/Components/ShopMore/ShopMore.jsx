@@ -1,14 +1,17 @@
 import React from "react";
 import { WhiteButton } from "../Button/Button";
+import {Heading2} from "../Heading/Heading"
+import {BodyText2} from "../BodyText/BodyText";
 
 function ShopMore() {
 	return (
 		<section className="shop-more">
             <div className="shop-more-info">
                 <div>
-                    <h2>Clean products that <span>deliver better solutions</span></h2>
-                    <p>A healthier you from the inside out. We’ve sourced the 
-                       <span>cleanest ingredients to create a line of clean skin care</span>treatments that leave you feeling your best</p>
+                    <Heading2>Clean products that deliver better solutions</Heading2>
+                    {/* <p>A healthier you from the inside out. We’ve sourced the 
+                       <span>cleanest ingredients to create a line of clean skin care</span>treatments that leave you feeling your best</p> */}
+                    <BodyText2>A healthier you from the inside out. We’ve sourced the cleanest ingredients to create a line of clean skin care treatments that leave you feeling your best</BodyText2>
                     <WhiteButton>Shop more</WhiteButton>
                 </div>
             </div>

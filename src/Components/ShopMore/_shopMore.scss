@@ -1,7 +1,6 @@
 .shop-more{
     width: $maxWidth;
     height: 731px;
-    background-color:aquamarine;
     font-family: $primaryFont;
     display: flex;
 
@@ -16,27 +15,11 @@
     div{
         width: 465px;
 
-        h2{
-            font-size: 4.0rem;
-            line-height: 55px;
-            letter-spacing: -1px;
-            font-weight: 700;
-            color: $white;
-        }
-
         p{
-            font-size: 1.4rem;
-            padding: 23px 0 55px 0;
-            line-height: 24px;
+            padding: 23px 0;
             color: $fontcolor4;
         }
-
-        span{
-            display: block;
-        }
     }
-
-        
     }
 
     .shop-more-img{
