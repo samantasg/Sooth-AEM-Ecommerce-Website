@@ -1,0 +1,55 @@
+.store-info{
+    width: $maxWidth;
+    height: 234px;
+    background-color: $bgc2;
+    font-family: $primaryFont;
+    color: $fontcolor2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .store-info-wrapper{
+        width: 776px;
+        display: flex;
+        justify-content: space-between;
+
+        .store-info-box{
+            width: 146px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    
+            div{
+                width: 26px;
+                height: 26px;
+                background-size: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            .shop{
+                background-image: url("/src/assets/shop.svg");
+            }
+            .shopping-cart{
+                background-image: url("/src/assets/shopping-cart2.svg");
+            }
+            .telephone{
+                background-image: url("/src/assets/phone-ringing.svg");
+            }
+            
+            p{
+                font-size: 1.6rem;
+                text-align: center;
+                padding-top: 14px;
+    
+                a{
+                    font-size: 1.2rem;
+                    text-decoration: underline;
+                    
+                    &:visited{
+                        color: $fontcolor2;
+                    }
+                }
+            }
+        }
+    }   
+}

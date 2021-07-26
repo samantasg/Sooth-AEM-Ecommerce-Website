@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Heading = styled.p`
+export const Heading = styled.h1`
 color: ${props => props.HeadingColor || "#354E57"};
 font-size: 4.8rem;
 line-height: 5.8rem;

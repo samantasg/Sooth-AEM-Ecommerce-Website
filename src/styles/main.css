@@ -159,24 +159,8 @@ html {
   font-size: 1.2rem;
 }
 
-.hero .hero-1 h2 {
-  font-size: 4.8rem;
-  padding: 14px 0;
-  line-height: 58px;
-}
-
-.hero .hero-1 h2 span {
-  display: block;
-}
-
 .hero .hero-1 p {
-  font-size: 1.6rem;
-  line-height: 24px;
-  margin-bottom: 28px;
-}
-
-.hero .hero-1 p span {
-  display: block;
+  padding: 28px 0;
 }
 
 .hero .hero-2 {
@@ -377,6 +361,10 @@ html {
   width: 465px;
 }
 
+.shop-more .shop-more-info div h1 {
+  color: #EEF2F4;
+}
+
 .shop-more .shop-more-info div p {
   padding: 23px 0;
   color: #EEF2F4;
@@ -431,7 +419,6 @@ html {
 .ingredients .ingredients-wrapper .ingredients-grid {
   width: 100%;
   height: 100%;
-  background-color: lightblue;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
@@ -441,7 +428,105 @@ html {
   grid-gap: 20px;
 }
 
-.ingredients .ingredients-wrapper .ingredients-grid div {
-  background-color: lightcoral;
+.ingredient .ingredient-bg-img {
+  width: 100%;
+  height: 320px;
+  background-image: url("/src/assets/Screenshot-1.png");
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ingredient .ingredient-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ingredient .ingredient-info p {
+  padding-top: 5px;
+}
+
+.store-info {
+  width: 1366px;
+  height: 234px;
+  background-color: #EEF3F4;
+  font-family: "Proxima Nova";
+  color: #354E57;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.store-info .store-info-wrapper {
+  width: 776px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.store-info .store-info-wrapper .store-info-box {
+  width: 146px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.store-info .store-info-wrapper .store-info-box div {
+  width: 26px;
+  height: 26px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.store-info .store-info-wrapper .store-info-box .shop {
+  background-image: url("/src/assets/shop.svg");
+}
+
+.store-info .store-info-wrapper .store-info-box .shopping-cart {
+  background-image: url("/src/assets/shopping-cart2.svg");
+}
+
+.store-info .store-info-wrapper .store-info-box .telephone {
+  background-image: url("/src/assets/phone-ringing.svg");
+}
+
+.store-info .store-info-wrapper .store-info-box p {
+  font-size: 1.6rem;
+  text-align: center;
+  padding-top: 14px;
+}
+
+.store-info .store-info-wrapper .store-info-box p a {
+  font-size: 1.2rem;
+  text-decoration: underline;
+}
+
+.store-info .store-info-wrapper .store-info-box p a:visited {
+  color: #354E57;
 }
 /*# sourceMappingURL=main.css.map */

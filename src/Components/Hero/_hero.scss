@@ -23,45 +23,12 @@
             font-size: 1.2rem;
         }
 
-        h2{
-            font-size: 4.8rem;
-            padding: 14px 0;
-            line-height: 58px;
-
-            span{
-                display: block;
-            }
-        }
-
         p{
-            font-size: 1.6rem;
-            line-height: 24px;
-            margin-bottom: 28px;
-
-            span{
-                display: block;
-            }
+            padding: 28px 0;
         }
-        // .btn-2{
-        //     width: 173px;
-        //     height: 35px;
-        //     background-color: transparent;
-        //     border: none;
-        //     font-size: 1.4rem;
-        //     border: 1px solid $fontcolor2;
-        //     color: $fontcolor3;
-        //     margin-top: 28px;
-
-        //     &:hover{
-        //         cursor: pointer;
-        //         background-color: $fontcolor2;
-        //         color: $fontcolor1;
-        //     }
-        // }
     }
 
     .hero-2{
-        // background-color: turquoise;
         display: flex;
         align-items: center;
         justify-content: center;
