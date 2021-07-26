@@ -7,6 +7,7 @@ import ShopMore from "./Components/ShopMore/ShopMore";
 import Ingredients from "./Components/Ingredients/Ingredients";
 import {Heading2} from "./Components/Heading/Heading";
 import Input from "./Components/Input/Input";
+import StoreInfo from "./Components/StoreInfo/StoreInfo";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
     <Products></Products>
     <ShopMore></ShopMore>
     <Ingredients></Ingredients>
+    <StoreInfo></StoreInfo>
     <Button>Shop products</Button>
     <BrownButton>Subscribe</BrownButton>
     <BlueButton>Continue to Review Order</BlueButton>
