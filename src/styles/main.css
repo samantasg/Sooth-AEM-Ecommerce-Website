@@ -529,4 +529,180 @@ html {
 .store-info .store-info-wrapper .store-info-box p a:visited {
   color: #354E57;
 }
+
+.footer {
+  width: 1366px;
+  background-color: white;
+  font-family: "Proxima Nova";
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer .footer-info {
+  width: 1090px;
+  height: 148px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .footer-info .line {
+  width: 1px;
+  height: 78px;
+  background-color: #D7CCDD;
+}
+
+.footer .footer-info h1 {
+  width: 202px;
+}
+
+.footer .footer-info p {
+  width: 304px;
+}
+
+.footer .footer-info-wrapper {
+  width: 1366px;
+  height: 728px;
+  background-color: #354E57;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer .footer-info-wrapper .footer-info-box {
+  width: 1090px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #F7F5E6;
+}
+
+.footer .footer-info-wrapper .footer-info-box .footer-info-box-1 {
+  width: 344px;
+}
+
+.footer .footer-info-wrapper .footer-info-box .footer-info-box-1 h1 {
+  font-size: 5.4rem;
+  line-height: 6.6rem;
+  letter-spacing: 0.27rem;
+}
+
+.footer .footer-info-wrapper .footer-info-box .footer-info-box-1 p {
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  margin-bottom: 40px;
+}
+
+.footer .footer-info-wrapper .footer-info-box .footer-info-box-2 {
+  width: 483px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .footer-info-wrapper .footer-info-box .footer-info-box-2 ul li {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.footer .footer-info-wrapper .footer-info-box .footer-info-box-2 ul li:first-child {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  margin-bottom: 12px;
+}
+
+.footer .footer-info-wrapper .privacy-policy {
+  width: 1090px;
+  padding-top: 40px;
+}
+
+.footer .footer-info-wrapper .privacy-policy p {
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.footer .footer-info-wrapper .privacy-policy .privacy-policy-terms {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .footer-info-wrapper .privacy-policy .privacy-policy-terms ul li {
+  display: inline-block;
+  text-decoration: underline;
+}
+
+.footer .footer-info-wrapper .privacy-policy .privacy-policy-terms ul li a {
+  margin-right: 74px;
+  font-size: 1.6rem;
+}
+
+.footer .footer-info-wrapper .privacy-policy .privacy-policy-terms ul li a:visited {
+  color: white;
+}
+
+.footer .footer-info-wrapper .privacy-policy .privacy-policy-terms .privacy-policy-icon {
+  width: 26px;
+  height: 26px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 39px;
+}
+
+.footer .footer-info-wrapper .privacy-policy .privacy-policy-terms .facebook {
+  background-image: url("/src/assets/facebook.svg");
+}
+
+.footer .footer-info-wrapper .privacy-policy .privacy-policy-terms .instagram {
+  background-image: url("/src/assets/instagram.svg");
+}
+
+.footer .footer-info-wrapper .privacy-policy .privacy-policy-terms .twitter {
+  background-image: url("/src/assets/twitter.svg");
+}
+
+.footer .footer-info-wrapper .privacy-policy .privacy-policy-terms .youtube {
+  background-image: url("/src/assets/youtube-logotype.svg");
+}
 /*# sourceMappingURL=main.css.map */
