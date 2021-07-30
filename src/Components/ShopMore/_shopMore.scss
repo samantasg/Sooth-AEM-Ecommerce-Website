@@ -1,5 +1,4 @@
 .shop-more{
-    width: $maxWidth;
     height: 731px;
     font-family: $primaryFont;
     display: flex;
@@ -7,10 +6,8 @@
     .shop-more-info{
         width: 50%;
         height: 100%;
-        background-color: $bgc4;
         display: flex;
         align-items: center;
-        justify-content: center;
         
     div{
         width: 465px;
@@ -29,7 +26,7 @@
     .shop-more-img{
         width: 50%;
         height: 100%;
-        background-image: url("/src/assets/man-in-blue-top.png");
-	    background-size: 110%;
+        // background-image: url("/src/assets/man-in-blue-top.png");
+	    background-size: 130%;
     }
 }

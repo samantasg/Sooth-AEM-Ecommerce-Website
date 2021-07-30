@@ -6,8 +6,8 @@ function Ingredient(props) {
         <div className="ingredient">
             <div className="ingredient-bg-img"></div>
             <div className="ingredient-info">
-            <BodyText>{props.ingredientName}</BodyText>
-            <BodyText3>Lorem ipsum dolar et al</BodyText3>
+            <BodyText>{props.name}</BodyText>
+            <BodyText3>{props.info}</BodyText3>
             </div>
         </div>
     );

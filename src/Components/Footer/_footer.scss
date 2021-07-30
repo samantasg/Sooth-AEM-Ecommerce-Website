@@ -1,5 +1,4 @@
 .footer{
-    width: $maxWidth;
     background-color: $white;
     font-family: $primaryFont;
     color: $white;
@@ -31,7 +30,6 @@
     }
 
     .footer-info-wrapper{
-        width: $maxWidth;
         height: 728px;
         background-color: $fontcolor2;
         display: flex;

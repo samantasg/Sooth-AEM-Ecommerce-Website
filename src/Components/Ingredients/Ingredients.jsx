@@ -3,7 +3,7 @@ import {Heading4} from "../Heading/Heading";
 import {BodyText2} from "../BodyText/BodyText";
 import Ingredient from "../Ingredient/Ingredient";
 
-function Ingredients() {
+function Ingredients({ingredientsList}) {
 	return (
 		<section className="ingredients">
             <div className="ingredients-wrapper">
@@ -12,12 +12,11 @@ function Ingredients() {
                     <BodyText2>Explore our innovative skincare products</BodyText2>
                 </div>
                 <div className="ingredients-grid">
-                    <Ingredient ingredientName="Cacao"></Ingredient>
-                    <Ingredient ingredientName="Honey"></Ingredient>
-                    <Ingredient ingredientName="Mint"></Ingredient>
-                    <Ingredient ingredientName="Coconut root"></Ingredient>
-                    <Ingredient ingredientName="Flour"></Ingredient>
-                    <Ingredient ingredientName="Cacao"></Ingredient>
+                    {ingredientsList.map((ingredient) => {
+                        return <Ingredient name={ingredient.name} info={ingredient.info}></Ingredient> 
+                    }
+                    )
+                    }
                 </div>
             </div>
         </section>

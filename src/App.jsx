@@ -1,30 +1,19 @@
 import "./styles/main.css";
 import Layout from "./Components/Layout/Layout";
+import Banner1 from "./Components/Banner1/Banner1";
+import Navigation from "./Components/Navigation/Navigation";
 import Homepage from "./Components/Homepage/Homepage";
-import Products from "./Components/Products/Products";
-import {Button , BrownButton, BlueButton} from "./Components/Button/Button";
-import ShopMore from "./Components/ShopMore/ShopMore";
-import Ingredients from "./Components/Ingredients/Ingredients";
-import {Heading2} from "./Components/Heading/Heading";
-import Input from "./Components/Input/Input";
-import StoreInfo from "./Components/StoreInfo/StoreInfo";
 import Footer from "./Components/Footer/Footer";
+
 
 function App() {
   return (
-    <Layout>
-    <Homepage></Homepage>
-    <Products></Products>
-    <ShopMore></ShopMore>
-    <Ingredients></Ingredients>
-    <StoreInfo></StoreInfo>
-    <Footer></Footer>
-    <Button>Shop products</Button>
-    <BrownButton>Subscribe</BrownButton>
-    <BlueButton>Continue to Review Order</BlueButton>
-    <Heading2>Heading 2</Heading2>
-    <div><Input defaultValue="@samantasg" type="email"></Input></div>
-    </Layout>
+    <>
+      <Banner1></Banner1>
+      <Navigation></Navigation>
+        <Homepage></Homepage>
+      <Footer></Footer>
+    </>
   );
 }
 

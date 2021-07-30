@@ -1,7 +1,9 @@
 import React from "react";
+import Section from "../Section/Section";
 
 function Navigation() {
 	return (
+		<Section bgColor="#e0e4e7">
 		<nav className='navigation-bar'>
 			<div className="nav-1">
 				<div>
@@ -28,6 +30,7 @@ function Navigation() {
 				</div>
 			</div>
 		</nav>
+		</Section>
 	);
 }
 

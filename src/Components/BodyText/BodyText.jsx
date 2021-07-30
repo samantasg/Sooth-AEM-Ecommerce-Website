@@ -15,4 +15,9 @@ font-size: 1.2rem;
 line-height: 1.6rem;
 `;
 
+export const BodyText4 = styled(BodyText)`
+font-size: 1.6rem;
+line-height: 1.9rem;
+`
+
 export default BodyText;

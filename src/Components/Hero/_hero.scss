@@ -1,10 +1,11 @@
 .hero{
-    width: 1196px;
-    height: 100%;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
     font-family: $primaryFont;
     color: $fontcolor2;
+    background-image: url("/src/assets/updated_Header.png");
+	background-size: 100%;
+    background-position: center;
 
     div{
         width: 530px;
@@ -14,6 +15,7 @@
 
     .hero-1{
         // background-color: aquamarine;
+        margin-left: 45px;
 
         .btn-1{
             width: 50px;
@@ -25,30 +27,6 @@
 
         p{
             padding: 28px 0;
-        }
-    }
-
-    .hero-2{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-
-        // .img-1{
-        //     width: 200px;
-        //     height: 200px;
-        //     background-image: url("/src/assets/annie-spratt.png");   
-        // }
-
-        .img-2{
-            width: 400px;
-            height: 400px;
-            background-image: url("/src/assets/ezcema.png");
-            bottom: 10px;
-            left: -55px;
-            background-size: 100%;
-            background-repeat: no-repeat;
-            position: absolute;
         }
     }
 }
