@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const BodyText = styled.p`
-color: ${props => props.BodyTextColor || "#354E57"};
+color: ${props => props.BodyTextColor || props.theme.fontcolor2};
 font-size: 1.4rem;
 line-height: 1.7rem; 
 `;

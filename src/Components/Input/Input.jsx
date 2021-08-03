@@ -4,8 +4,8 @@ const Input = styled.input`
   font-size: 1.4rem;
   line-height: 1.7rem;  
   padding: 0.68rem 2.5rem;
-  color: ${props => props.inputColor || "#354E57"};
-  background: ${props => props.inputBackground || "white"};
+  color: ${props => props.inputColor || props.theme.fontcolor2};
+  background: ${props => props.inputBackground || props.theme.white};
   border: ${props => props.inputBorder || "1px solid #BACAD1"};
 
   &:hover {
