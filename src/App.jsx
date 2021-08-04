@@ -1,30 +1,24 @@
 import "./styles/main.css";
+import Theme from "./Components/Theme/Theme";
 import Layout from "./Components/Layout/Layout";
 import Homepage from "./Components/Homepage/Homepage";
-import Products from "./Components/Products/Products";
-import {Button , BrownButton, BlueButton} from "./Components/Button/Button";
-import ShopMore from "./Components/ShopMore/ShopMore";
-import Ingredients from "./Components/Ingredients/Ingredients";
-import {Heading2} from "./Components/Heading/Heading";
-import Input from "./Components/Input/Input";
-import StoreInfo from "./Components/StoreInfo/StoreInfo";
-import Footer from "./Components/Footer/Footer";
+import About from "./Components/Pages/About";
+import Login from "./Components/Pages/Login";
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 function App() {
   return (
-    <Layout>
-    <Homepage></Homepage>
-    <Products></Products>
-    <ShopMore></ShopMore>
-    <Ingredients></Ingredients>
-    <StoreInfo></StoreInfo>
-    <Footer></Footer>
-    <Button>Shop products</Button>
-    <BrownButton>Subscribe</BrownButton>
-    <BlueButton>Continue to Review Order</BlueButton>
-    <Heading2>Heading 2</Heading2>
-    <div><Input defaultValue="@samantasg" type="email"></Input></div>
-    </Layout>
+    <Router>
+      <Theme>
+        <Layout>
+          <Switch>
+			      <Route path="/" exact component={Homepage}></Route>
+            <Route path="/about" component={About}></Route>
+            <Route path="/login" component={Login}></Route>
+			    </Switch>
+        </Layout>
+      </Theme>
+    </Router>  
   );
 }
 

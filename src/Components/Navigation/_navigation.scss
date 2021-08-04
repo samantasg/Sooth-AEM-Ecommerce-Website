@@ -1,9 +1,8 @@
 .navigation-bar{
-    width: 1196px;
-    height: 84px;
-    margin-top: 44px;
+    padding-top: 44px;
     color: $fontcolor2;
     font-family: $primaryFont;
+    background-color: $bgc5;
 
     .nav-1{
         div{
@@ -45,10 +44,12 @@
                 font-size: 1.6rem;
                 margin-left: 62px;
                 letter-spacing: 0.8px;
+                
                 a {
                     &:visited {
                         color: $fontcolor2;
                     }
+                    
                 }
             }
             

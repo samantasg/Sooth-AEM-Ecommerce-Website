@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
 function Product(props) {
     return (
@@ -8,10 +10,10 @@ function Product(props) {
                 <p>New!</p>
             </div>
             <div className="product-info">
-            <p>{props.productName}</p>
-            <p>All Natural Ingredients</p>
-            <p>${props.productPrice}</p>
-            <button>Add to cart</button>
+            <p>{props.name}</p>
+            <p>{props.info}</p>
+            <p>{props.price}</p>
+            <button> <FontAwesomeIcon color='#2E2E22' icon={faShoppingCart} style={{marginRight: 12}} ></FontAwesomeIcon>Add to cart </button>
             </div>
         </div>
     );

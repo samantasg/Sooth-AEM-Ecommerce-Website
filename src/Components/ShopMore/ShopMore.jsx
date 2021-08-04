@@ -3,17 +3,17 @@ import { WhiteButton } from "../Button/Button";
 import {Heading2} from "../Heading/Heading"
 import {BodyText2} from "../BodyText/BodyText";
 
-function ShopMore() {
+function ShopMore(props) {
 	return (
-		<section className="shop-more">
+		<section className="shop-more" style={{flexDirection: (props.flexDirection)}}>
             <div className="shop-more-info">
-                <div>
-                    <Heading2>Clean products that deliver better solutions</Heading2>
-                    <BodyText2>A healthier you from the inside out. We’ve sourced the cleanest ingredients to create a line of clean skin care treatments that leave you feeling your best</BodyText2>
+                <div style={{marginLeft: (props.margin)}}>
+                    <Heading2>{props.title}</Heading2>
+                    <BodyText2>{props.info}</BodyText2>
                     <WhiteButton>Shop more</WhiteButton>
                 </div>
             </div>
-            <div className="shop-more-img"></div>
+            <div className="shop-more-img" style={{backgroundImage: `url(${props.background})`}}></div>
         </section>
 	);
 }

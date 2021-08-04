@@ -20,9 +20,6 @@ html {
 }
 
 .homepage {
-  width: 1366px;
-  background-image: url("/src/assets/updated_Header.png");
-  background-size: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -35,33 +32,11 @@ html {
           align-items: center;
 }
 
-.homepage .popup {
-  width: 100%;
-  height: 40px;
-  background-color: #A67744;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-family: "Proxima Nova";
-}
-
-.homepage .popup p {
-  font-size: 1.2rem;
-  color: #F7F5E6;
-}
-
 .navigation-bar {
-  width: 1196px;
-  height: 84px;
-  margin-top: 44px;
+  padding-top: 44px;
   color: #354E57;
   font-family: "Proxima Nova";
+  background-color: #e0e4e7;
 }
 
 .navigation-bar .nav-1 div {
@@ -119,36 +94,28 @@ html {
   color: #354E57;
 }
 
-.layout {
-  margin: 0 auto;
+.hero {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.hero {
-  width: 1196px;
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   font-family: "Proxima Nova";
   color: #354E57;
+  background-image: url("/src/assets/updated_Header.png");
+  background-size: 100%;
+  background-position: center;
 }
 
 .hero div {
   width: 530px;
   height: 400px;
   margin-top: 100px;
+}
+
+.hero .hero-1 {
+  margin-left: 45px;
 }
 
 .hero .hero-1 .btn-1 {
@@ -163,32 +130,7 @@ html {
   padding: 28px 0;
 }
 
-.hero .hero-2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  position: relative;
-}
-
-.hero .hero-2 .img-2 {
-  width: 400px;
-  height: 400px;
-  background-image: url("/src/assets/ezcema.png");
-  bottom: 10px;
-  left: -55px;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  position: absolute;
-}
-
 .products {
-  width: 1366px;
   background-color: #EEF3F4;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -201,39 +143,6 @@ html {
       -ms-flex-align: center;
           align-items: center;
   font-family: "Proxima Nova";
-}
-
-.products .products-text-box {
-  width: 100%;
-  height: 141px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: #EEF3F4;
-  border: 1px solid #547665;
-  font-family: "Proxima Nova";
-  color: #354E57;
-}
-
-.products .products-text-box h2 {
-  font-size: 2.8rem;
-  line-height: 34px;
-}
-
-.products .products-text-box p {
-  font-size: 1.6rem;
-  line-height: 19px;
-  margin-top: 10px;
 }
 
 .products .products-section {
@@ -334,7 +243,6 @@ html {
 }
 
 .shop-more {
-  width: 1366px;
   height: 731px;
   font-family: "Proxima Nova";
   display: -webkit-box;
@@ -345,16 +253,12 @@ html {
 .shop-more .shop-more-info {
   width: 50%;
   height: 100%;
-  background-color: #547665;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .shop-more .shop-more-info div {
@@ -373,12 +277,10 @@ html {
 .shop-more .shop-more-img {
   width: 50%;
   height: 100%;
-  background-image: url("/src/assets/man-in-blue-top.png");
-  background-size: 110%;
+  background-size: 130%;
 }
 
 .ingredients {
-  width: 1366px;
   height: 1000px;
   background-color: #F7F7F7;
   display: -webkit-box;
@@ -455,7 +357,6 @@ html {
 }
 
 .store-info {
-  width: 1366px;
   height: 234px;
   background-color: #EEF3F4;
   font-family: "Proxima Nova";
@@ -531,7 +432,6 @@ html {
 }
 
 .footer {
-  width: 1366px;
   background-color: white;
   font-family: "Proxima Nova";
   color: white;
@@ -579,7 +479,6 @@ html {
 }
 
 .footer .footer-info-wrapper {
-  width: 1366px;
   height: 728px;
   background-color: #354E57;
   display: -webkit-box;
@@ -704,5 +603,42 @@ html {
 
 .footer .footer-info-wrapper .privacy-policy .privacy-policy-terms .youtube {
   background-image: url("/src/assets/youtube-logotype.svg");
+}
+
+.banner-1 {
+  width: 100%;
+  height: 40px;
+  background-color: #A67744;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Proxima Nova";
+}
+
+.banner-2 {
+  width: 100%;
+  height: 141px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #EEF3F4;
+  border: 1px solid #547665;
+  font-family: "Proxima Nova";
 }
 /*# sourceMappingURL=main.css.map */

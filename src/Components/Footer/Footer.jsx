@@ -3,9 +3,10 @@ import { Heading3 } from "../Heading/Heading"
 import BodyText from "../BodyText/BodyText";
 import Input from "../Input/Input";
 import { Button , BrownButton } from "../Button/Button";
+import Section from "../Section/Section";
 
 function Footer() {
-	return (
+	return (    
 		<section className="footer">
             <div className="footer-info">
                 <Heading3>Join the Sooth family</Heading3>
@@ -16,6 +17,7 @@ function Footer() {
                 <BrownButton>Subscribe</BrownButton>
                 </div>
             </div>
+            <Section bgColor="#354E57">
             <div className="footer-info-wrapper">
                 <div className="footer-info-box">
                     <div className="footer-info-box-1">
@@ -65,7 +67,8 @@ function Footer() {
                     </div>
                 </div>
             </div>
-        </section>
+            </Section>
+        </section>    
 	);
 }
 
