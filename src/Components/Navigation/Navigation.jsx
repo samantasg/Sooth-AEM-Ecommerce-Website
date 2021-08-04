@@ -1,5 +1,6 @@
 import React from "react";
 import Section from "../Section/Section";
+import {Link} from "react-router-dom";
 
 function Navigation() {
 	return (
@@ -8,13 +9,13 @@ function Navigation() {
 			<div className="nav-1">
 				<div>
 				<ul>
-					<li><a href=''>About</a></li>
+					<Link to="/about"><li><a href=''>About</a></li></Link>
 					<li><a href=''>Consultation</a></li>
 				</ul>
-				<p>sooth</p>
+				<Link to="/"><p>sooth</p></Link>
 				<ul>
 					<li><a href=''>Cart</a></li>
-					<li><a href=''>Login</a></li>
+				<Link to="/login"><li><a href=''>Login</a></li></Link>
 				</ul>
 				</div>
 			</div>

@@ -33,8 +33,6 @@ html {
 }
 
 .navigation-bar {
-  width: 1196px;
-  height: 84px;
   padding-top: 44px;
   color: #354E57;
   font-family: "Proxima Nova";
@@ -94,20 +92,6 @@ html {
 
 .navigation-bar .nav-2 div ul li a:visited {
   color: #354E57;
-}
-
-.layout {
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .hero {

@@ -5,6 +5,7 @@ export const Button = styled.button`
   color: ${props => props.buttonColor || props.theme.fontcolor3};
   background: ${({ disabled }) => (disabled ? "#E4ECEF " : "transparent")};
   width: ${({ fullWidth }) => (fullWidth ? "100%" : "max-content")};
+  font-family: ${props => props.theme.primaryFont};
   padding: 0.75rem 2.5rem;
   font-size: 1.4rem;
   &:hover {
