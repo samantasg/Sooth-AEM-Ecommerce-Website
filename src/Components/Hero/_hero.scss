@@ -1,0 +1,32 @@
+.hero{
+    display: flex;
+    align-items: center;
+    font-family: $primaryFont;
+    color: $fontcolor2;
+    background-image: url("/src/assets/updated_Header.png");
+	background-size: 100%;
+    background-position: center;
+
+    div{
+        width: 530px;
+        height: 400px;
+       margin-top: 100px;
+    }
+
+    .hero-1{
+        // background-color: aquamarine;
+        margin-left: 45px;
+
+        .btn-1{
+            width: 50px;
+            height: 28px;
+            background-color: $bgc3;
+            border: none;
+            font-size: 1.2rem;
+        }
+
+        p{
+            padding: 28px 0;
+        }
+    }
+}

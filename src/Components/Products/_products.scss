@@ -1,0 +1,33 @@
+.products{
+    background-color: $bgc2;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-family: $primaryFont;
+
+    .products-section{
+        width: 1130px;
+        margin-top: 82px;
+        color: $fontcolor3;
+        margin-bottom: 111px;
+
+        .products-section-text{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 29px;
+
+        p{
+            font-size: 1.4rem;
+            line-height: 17px;
+        }
+        }
+
+        .products-section-box{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-gap: 42px;
+        }
+        
+    }
+}

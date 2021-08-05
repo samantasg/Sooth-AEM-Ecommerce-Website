@@ -1,0 +1,32 @@
+.shop-more{
+    height: 731px;
+    font-family: $primaryFont;
+    display: flex;
+
+    .shop-more-info{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        
+    div{
+        width: 465px;
+        
+        h1{
+            color: $fontcolor4;
+        }
+
+        p{
+            padding: 23px 0;
+            color: $fontcolor4;
+        }
+    }
+    }
+
+    .shop-more-img{
+        width: 50%;
+        height: 100%;
+        // background-image: url("/src/assets/man-in-blue-top.png");
+	    background-size: 130%;
+    }
+}
