@@ -1,6 +1,6 @@
 import React from "react";
-import {Heading4} from "../Heading/Heading";
-import {BodyText4} from "../BodyText/BodyText";
+import { Heading4 } from "../Heading/Heading";
+import { BodyText4 } from "../BodyText/BodyText";
 
 function Banner2() {
 	return (
