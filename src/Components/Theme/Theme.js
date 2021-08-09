@@ -10,6 +10,7 @@ function Theme(props) {
             bgc3: "#F7F7F7",
             bgc4: "#547665",
             bgc5: "#e0e4e7",
+            bgc6: "#FAFAFA",
             fontcolor1: "#F7F5E6",
             fontcolor2: "#354E57",
             fontcolor3: "#2E2E22",
