@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Section from '../../Section/Section';
+import Layout from '../../Layout';
 import MenuNavigation from '../../MenuNavigation/MenuNavigation';
 import { menuNavigation } from '../../Mockups/navigation';
 import { items } from '../../Mockups/items';
@@ -18,23 +19,24 @@ function ProductsDisplay() {
   }, [params]);
 
   return (
-    <Section bgColor="#EEF3F4">
-      <div className="products-display">
-        <aside>
-          <ul className="menu-navigation">
-            {allCategories.map(cat => (
-              <li>
-                <span>{cat.categoryName}</span>
-                <ul>
-                  {cat.subcategories?.map(subcat => (
-                    <li>{subcat}</li>
-                  ))}
-                </ul>
-              </li>
-            ))}
-          </ul>
-        </aside>
-        {/* <div className="products-component-grid">
+    <Layout>
+      <Section bgColor="#EEF3F4">
+        <div className="products-display">
+          <aside>
+            <ul className="menu-navigation">
+              {allCategories.map(cat => (
+                <li>
+                  <span>{cat.categoryName}</span>
+                  <ul>
+                    {cat.subcategories?.map(subcat => (
+                      <li>{subcat}</li>
+                    ))}
+                  </ul>
+                </li>
+              ))}
+            </ul>
+          </aside>
+          {/* <div className="products-component-grid">
                 <div className="one"><Product height={581}></Product></div>
                 <div><Product></Product></div>
                 <div><Product></Product></div>
@@ -43,9 +45,10 @@ function ProductsDisplay() {
                 <div><Product></Product></div>
                 <div><Product></Product></div>
             </div> */}
-        {data && data.items && <ProductsGrid productList={data.items}></ProductsGrid>}
-      </div>
-    </Section>
+          {data && data.items && <ProductsGrid productList={data.items}></ProductsGrid>}
+        </div>
+      </Section>
+    </Layout>
   );
 }
 
