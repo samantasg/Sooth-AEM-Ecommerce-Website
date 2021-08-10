@@ -80,4 +80,13 @@ export const items = [
         isTopRated: true,
         isRecommended: false,
     },
+    {
+        name: "Sunburn Relief",
+        info: "All Natural Ingredients",
+        price: "$24.99",
+        discountPrice: 0,
+        isPopular: false,
+        isTopRated: false,
+        isRecommended: false,
+    }
 ];

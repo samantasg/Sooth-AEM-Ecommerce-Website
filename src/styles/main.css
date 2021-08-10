@@ -180,10 +180,9 @@ html {
 }
 
 .product {
-  width: 251px;
-  height: 462px;
   background-color: #F7F7F7;
   position: relative;
+  font-family: "Proxima Nova";
 }
 
 .product .product-stamp {
@@ -640,5 +639,35 @@ html {
   background-color: #EEF3F4;
   border: 1px solid #547665;
   font-family: "Proxima Nova";
+}
+
+.products-display {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #EEF3F4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.products-component-grid {
+  width: 100%;
+  padding-top: 50px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+  border-top: 1px solid #2E2E22;
+}
+
+.products-component-grid .one {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 3;
 }
 /*# sourceMappingURL=main.css.map */

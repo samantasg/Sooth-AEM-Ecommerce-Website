@@ -1,58 +1,56 @@
-.navigation-bar{
-    padding-top: 44px;
-    color: $fontcolor2;
-    font-family: $primaryFont;
-    background-color: $bgc5;
+.navigation-bar {
+  padding-top: 44px;
+  color: $fontcolor2;
+  font-family: $primaryFont;
+  background-color: $bgc5;
 
-    .nav-1{
-        div{
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
+  .nav-1 {
+    div {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
 
-            ul li{
-                display: inline;
-                font-size: 1.2rem;
-                text-transform: uppercase;
-                letter-spacing: 0.6px;
-                &:first-child{
-                    margin-right: 45px;
-                }
-                a {
-                    &:visited {
-                        color: $fontcolor2;
-                    }
-                }
-            }
-            p{
-            font-size: 3.2rem;
-            letter-spacing: 1.6px;
-            }
+      ul li {
+        display: inline;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        letter-spacing: 0.6px;
+        &:first-child {
+          margin-right: 45px;
         }
-    }
-
-    .nav-2{
-        div{
-            width: 100%;
-            margin-top: 28px;
-            display: flex;
-            justify-content: center;
-
-            ul li{
-                display: inline;
-                font-size: 1.6rem;
-                margin-left: 62px;
-                letter-spacing: 0.8px;
-                
-                a {
-                    &:visited {
-                        color: $fontcolor2;
-                    }
-                    
-                }
-            }
-            
+        a {
+          &:visited {
+            color: $fontcolor2;
+          }
         }
+      }
+      p {
+        font-size: 3.2rem;
+        letter-spacing: 1.6px;
+      }
     }
+  }
+
+  .nav-2 {
+    div {
+      width: 100%;
+      margin-top: 28px;
+      display: flex;
+      justify-content: center;
+
+      ul li {
+        display: inline;
+        font-size: 1.6rem;
+        margin-left: 62px;
+        letter-spacing: 0.8px;
+
+        a {
+          &:visited {
+            color: $fontcolor2;
+          }
+        }
+      }
+    }
+  }
 }

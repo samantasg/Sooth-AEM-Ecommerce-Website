@@ -22,7 +22,7 @@ function Navigation() {
 			<div className="nav-2">
 				<div>
 					<ul>
-						<li><a href=''>Acne</a></li>
+					<Link to="/acne"><li><a href=''>Acne</a></li></Link>
 						<li><a href=''>Sun</a></li>
 						<li><a href=''>Eczema</a></li>
 						<li><a href=''>Psoriasis</a></li>
