@@ -1,14 +1,18 @@
 export const menuNavigation = [
-    {
-        list: ["Acne", "Ointment", "Spot Treatment", "Lotion", "Cream"]
+    {   
+        category: "Acne", 
+        subcategories: ["Ointment", "Spot Treatment", "Lotion", "Cream"]
     },
-    {
-        list: ["Sun", "Relief" , "Cream", "Protection"]
+    {   
+        category: "Sun",
+        subcategories: ["Relief" , "Cream", "Protection"]
     },
-    {
-        list: ["Eczema" , "Cream" , "Oil", "Lotion" , "Balm"]
+    {   
+        category: "Eczema",
+        subcategories: ["Cream" , "Oil", "Lotion" , "Balm"]
     },
-    {
-        list: ["Psioriasis" , "Balm" , "Ointment"]
+    {   
+        category: "Psioriasis",
+        subcategories: ["Balm" , "Ointment"]
     }
 ];

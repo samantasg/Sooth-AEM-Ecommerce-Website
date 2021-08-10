@@ -180,10 +180,9 @@ html {
 }
 
 .product {
-  width: 251px;
-  height: 462px;
   background-color: #F7F7F7;
   position: relative;
+  font-family: "Proxima Nova";
 }
 
 .product .product-stamp {
@@ -642,43 +641,33 @@ html {
   font-family: "Proxima Nova";
 }
 
-.menu-navigation {
-  width: 245px;
-  height: 225px;
-  background-color: #FAFAFA;
+.products-display {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #EEF3F4;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-family: "Proxima Nova";
-  color: #2E2E22;
 }
 
-.menu-navigation ul {
-  width: 145px;
-  height: 121px;
-  font-size: 1.2rem;
+.products-component-grid {
+  width: 100%;
+  padding-top: 50px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+  border-top: 1px solid #2E2E22;
 }
 
-.menu-navigation ul li {
-  padding-left: 10px;
-  margin-top: 10px;
-}
-
-.menu-navigation ul li:hover {
-  background-color: #EEF2F4;
-  cursor: pointer;
-}
-
-.menu-navigation ul li:first-child {
-  padding-left: 0;
-  margin-top: 0;
-  font-size: 1.4rem;
-  font-weight: bold;
+.products-component-grid .one {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 3;
 }
 /*# sourceMappingURL=main.css.map */

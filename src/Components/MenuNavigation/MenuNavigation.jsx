@@ -20,12 +20,11 @@
 //STYLED COMPONENT
 
 import styled from "styled-components";
-import { menuNavigation } from "../Mockups/navigation";
 
 const Container = styled.div`
   width: 245px;
-  height: 225px;
-  background-color: ${props => props.theme.bgc6};
+  /* padding-top: 30px; */
+  background-color: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,13 +34,13 @@ const Container = styled.div`
 
 const List = styled.ul`
   list-style: none;
-  width: 90px;
+  width: 100px;
   height: 121px;
 `;
 
 const ListItem = styled.li`
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   font-size: 1.2rem;
   margin-left: 10px;
   margin-top: 10px;
@@ -58,25 +57,22 @@ const ListItem = styled.li`
   }
 `;
 
-// const Title = styled.span`
-//   font-size: 1.4rem;
-//   margin-bottom: 5px;
-// `;
-
-const MenuNavigation = (props) => (
+const MenuNavigation = ({category, menuNavigationList}) => (
     <Container>
-      {menuNavigation.map((list) => {
-        return(
-          <List>
-          <ListItem>ok</ListItem>
-          
-        </List>
-        )
-      }
-
-      )
-       
-      }
+      {menuNavigationList.map((menuNavigationItem) => {
+        if(menuNavigationItem.category === category){
+          return(
+            <List>
+            <ListItem>{menuNavigationItem.category}</ListItem>
+            {
+              menuNavigationItem.subcategories.map(subcategoryItem => {
+                return <ListItem>{subcategoryItem}</ListItem>
+              })
+            }
+            </List>
+          )
+        }
+      })}
     </Container>
 );
 

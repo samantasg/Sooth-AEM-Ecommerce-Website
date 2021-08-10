@@ -4,7 +4,7 @@ import Layout from "./Components/Layout/Layout";
 import Homepage from "./Components/Homepage/Homepage";
 import About from "./Components/Pages/About";
 import Login from "./Components/Pages/Login";
-import ProductsDisplay from "./Components/Pages/ProductsDisplay";
+import ProductsDisplay from "./Components/Pages/ProductsDisplay/ProductsDisplay";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 function App() {

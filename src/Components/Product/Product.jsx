@@ -5,10 +5,10 @@ import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 function Product(props) {
     return (
         <div className="product">
-            <div className="product-bg-img"></div>
-            <div className="product-stamp">
+            <div className="product-bg-img" style={{height: (props.height)}}></div>
+            {/* <div className="product-stamp">
                 <p>New!</p>
-            </div>
+            </div> */}
             <div className="product-info">
             <p>{props.name}</p>
             <p>{props.info}</p>

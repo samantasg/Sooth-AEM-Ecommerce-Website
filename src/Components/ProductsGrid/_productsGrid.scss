@@ -1,0 +1,17 @@
+.products-component-grid {
+    width: 100%;
+    // background-color: cadetblue;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+    border-top: 1px solid #2E2E22;
+
+    .one {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end: 3;
+    //   background-color: pink;
+    }
+  }
