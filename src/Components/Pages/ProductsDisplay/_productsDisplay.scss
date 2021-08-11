@@ -2,23 +2,33 @@
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: #EEF3F4;
+  background-color: #eef3f4;
   display: flex;
 
-//   .products-component-grid {
-//     width: 100%;
-//     background-color: cadetblue;
-//     display: grid;
-//     grid-template-columns: 1fr 1fr 1fr;
-//     grid-gap: 50px;
-//     border-top: 1px solid #2E2E22;
+  .menu-navigation {
+    font-family: $primaryFont;
+    color: $fontcolor3;
 
-//     .one {
-//       grid-column-start: 1;
-//       grid-column-end: 3;
-//       grid-row-start: 1;
-//       grid-row-end: 3;
-//       background-color: pink;
-//     }
-//   }
+    span {
+      font-weight: bold;
+      font-size: 1.4rem;
+      font-weight: bold;
+    }
+
+    ul {
+      width: 145px;
+      font-size: 1.2rem;
+      margin-bottom: 60px;
+
+      li {
+        padding-left: 10px;
+        margin-top: 10px;
+
+        &:hover {
+          background-color: #eef2f4;
+          cursor: pointer;
+        }
+      }
+    }
+  }
 }

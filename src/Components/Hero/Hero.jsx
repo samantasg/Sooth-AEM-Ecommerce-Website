@@ -3,10 +3,11 @@ import Button from "../Button/Button";
 import Heading from "../Heading/Heading";
 import { BodyText2 } from "../BodyText/BodyText";
 import Section from "../Section/Section";
+import bgImg from "../../assets/updated_Header.png";
 
 function Hero (props) {
     return(
-        <Section bgColor="#e0e4e7">
+        <Section>
                 <div className="hero">
                     <div className="hero-1">
                     <button className="btn-1">New!</button>
