@@ -22,8 +22,10 @@
 import styled from "styled-components";
 
 const Container = styled.div`
-  width: 245px;
+  /* width: 245px; */
   /* padding-top: 30px; */
+  padding-right: 80px;
+  padding-bottom: 30px;
   background-color: transparent;
   display: flex;
   align-items: center;
@@ -45,7 +47,7 @@ const ListItem = styled.li`
   margin-left: 10px;
   margin-top: 10px;
   :hover{
-    background-color: ${props => props.theme.bgc2};
+    background-color: ${props => props.theme.bgc5};
     cursor: pointer;
   }
   :first-of-type {

@@ -12,14 +12,7 @@ function ProductsGrid({productList}) {
                 }
             }
             )
-            }
-                
-                {/* <div><Product></Product></div>
-                <div><Product></Product></div>
-                <div><Product></Product></div>
-                <div><Product></Product></div>
-                <div><Product></Product></div>
-                <div><Product></Product></div> */}
+            };
         </div>
     )
 }
