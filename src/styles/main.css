@@ -252,15 +252,6 @@ html {
   width: 465px;
 }
 
-.shop-more .shop-more-info div h1 {
-  color: #EEF2F4;
-}
-
-.shop-more .shop-more-info div p {
-  padding: 23px 0;
-  color: #EEF2F4;
-}
-
 .shop-more .shop-more-img {
   width: 50%;
   height: 100%;
@@ -796,5 +787,77 @@ html {
   height: 64px;
   background-color: cadetblue;
   margin-bottom: 20px;
+}
+
+.instagram-posts {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 100px;
+}
+
+.instagram-posts .instagram-logo {
+  width: 54px;
+  height: 54px;
+  background-image: url("/src/assets/001-instagram.png");
+  background-size: 100%;
+}
+
+.instagram-posts .instagram-posts {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 24px;
+  padding-top: 64px;
+  padding-bottom: 160px;
+}
+
+.instagram-posts .instagram-posts div {
+  height: 255px;
+  background-color: chartreuse;
+  background-image: url("/src/assets/curology.png");
+  background-size: 100%;
+}
+
+.recent-news {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 100px;
+}
+
+.recent-news .instagram-posts {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 24px;
+  padding-top: 64px;
+  padding-bottom: 160px;
+  background-color: cornflowerblue;
+}
+
+.recent-news .instagram-posts div {
+  height: 346px;
+  background-color: chartreuse;
+  background-image: url("/src/assets/yue-iris.png");
+  background-size: 100%;
 }
 /*# sourceMappingURL=main.css.map */
