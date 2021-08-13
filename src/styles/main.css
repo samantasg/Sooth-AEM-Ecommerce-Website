@@ -177,7 +177,6 @@ html {
 }
 
 .product {
-  background-color: #F7F7F7;
   position: relative;
   font-family: "Proxima Nova";
 }
@@ -208,11 +207,12 @@ html {
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
+  background-color: white;
 }
 
 .product .product-info {
   padding-top: 15px;
-  background-color: #EEF3F4;
+  background-color: transparent;
 }
 
 .product .product-info p {
@@ -662,7 +662,7 @@ html {
 }
 
 .products-display .menu-navigation ul li:hover {
-  background-color: #eef2f4;
+  background-color: #e0e4e7;
   cursor: pointer;
 }
 
@@ -684,5 +684,117 @@ html {
   -ms-grid-row: 1;
       grid-row-start: 1;
   grid-row-end: 3;
+}
+
+.product-display-container {
+  padding-top: 160px;
+  padding-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Proxima Nova";
+}
+
+.product-display-container .product-display-imgs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+}
+
+.product-display-container .product-display-imgs .product-img {
+  width: 400px;
+  height: 240px;
+  background-image: url("/src/assets/vitiligio_balm-4.png");
+  background-size: 130%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.product-display-container .product-display-imgs .product-img .arrow {
+  width: 16px;
+  height: 8px;
+  background-image: url("/src/assets/arrow-left.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 100px;
+}
+
+.product-display-container .product-display-imgs .product-img .right {
+  background-image: url("/src/assets/arrow-right.png");
+  position: absolute;
+  left: 385px;
+}
+
+.product-display-container .product-display-imgs .product-imgs {
+  width: 400px;
+  height: 75px;
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.product-display-container .product-display-imgs .product-imgs div {
+  width: 90px;
+  height: 100%;
+  background-image: url("/src/assets/vitiligio_balm-4.png");
+  background-size: 130%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.product-display-container .product-display-info {
+  width: 464px;
+}
+
+.product-display-container .product-display-info .review-stars {
+  width: 150px;
+  height: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.product-display-container .product-display-info .review-stars div {
+  width: 15px;
+  height: 15px;
+  background-image: url("/src/assets/asset-3.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.product-display-container .product-display-info .review-stars div:last-child {
+  background-image: url("/src/assets/asset-6.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.product-display-container .product-display-info .product-shopping-details .shipping-details {
+  width: 100%;
+  height: 64px;
+  background-color: cadetblue;
+  margin-bottom: 20px;
 }
 /*# sourceMappingURL=main.css.map */

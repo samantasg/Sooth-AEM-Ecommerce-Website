@@ -1,7 +1,5 @@
 import React, {useEffect, useState} from 'react';
 import Section from "../../Section/Section";
-import MenuNavigation from "../../MenuNavigation/MenuNavigation";
-import {menuNavigation} from "../../Mockups/navigation";
 import {items} from "../../Mockups/items";
 import ProductsGrid from '../../ProductsGrid/ProductsGrid';
 import ShopMore from "../../ShopMore/ShopMore";
@@ -35,11 +33,11 @@ function ProductsDisplay() {
                 ))}
                 </ul>
             </aside>    
-        <ProductsGrid productList={allCategories}></ProductsGrid>
+            <ProductsGrid productList={allCategories}></ProductsGrid>
         </div>
         </Section>
         <Section bgColor="#547665"><ShopMore background={Image} title="Clean products that deliver better solutions" info="A healthier you from the inside out. We’ve sourced the cleanest ingredients to create a line of clean skin care treatments that leave you feeling your best"></ShopMore></Section>
-        <Products listName="Related Products" productList={items} isPopular={false} isTopRated={true} isRecommended={false}></Products>
+        <Products listName="Related Products" productList={allCategories} isPopular={true} isTopRated={true} isRecommended={false}></Products>
         </>
     )
 }

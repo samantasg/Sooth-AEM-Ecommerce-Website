@@ -2,14 +2,14 @@ import React from "react";
 import Banner1 from "../Banner1/Banner1";
 import Navigation from "../Navigation/Navigation";
 import Footer from "../Footer/Footer";
-import Dropdown from "../Dropdown/Dropdown";
+import ProductDisplay from "../Pages/ProductDisplay/ProductDisplay";
 
-function Layout({children}) {
+function Layout({children, showBanner}) {
 	return (
 		<>
-			<Banner1/>
-			
+			{showBanner && <Banner1/>}
 			<Navigation/>
+			{/* <ProductDisplay></ProductDisplay> */}
 			{children}
 			<Footer/>
 		</>

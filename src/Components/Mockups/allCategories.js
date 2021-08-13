@@ -13,7 +13,7 @@ export const allCategories =[
           isRecommended: true
         },
         {
-          name: 'Vitiligio Solution',
+          name: 'Ezcema Cream',
           info: 'All Natural Ingredients',
           price: '$24.99',
           discountPrice: 0,
@@ -101,7 +101,7 @@ export const allCategories =[
  
       items: [
         {
-          name: 'Acne Cream',
+          name: 'Vitiligio Solution',
           info: 'All Natural Ingredients',
           price: '$24.99',
           discountPrice: 0,

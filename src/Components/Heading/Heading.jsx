@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Heading = styled.h1`
 color: ${({theme, headingColor}) => headingColor || theme.fontcolor2};
+font-family: ${props => props.theme.primaryFont};
 font-size: 4.8rem;
 line-height: 5.8rem;
 font-weight: bold;

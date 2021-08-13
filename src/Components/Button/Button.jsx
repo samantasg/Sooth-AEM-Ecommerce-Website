@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 export const Button = styled.button`
+  width: ${({ fullWidth }) => (fullWidth ? "100%" : "max-content")};
   border: ${props => props.buttonBorder || "1px solid #354e57"};
   color: ${props => props.buttonColor || props.theme.fontcolor3};
   background: ${({ disabled }) => (disabled ? "#E4ECEF " : "transparent")};
-  width: ${({ fullWidth }) => (fullWidth ? "100%" : "max-content")};
   font-family: ${props => props.theme.primaryFont};
   padding: 0.75rem 2.5rem;
   font-size: 1.4rem;
