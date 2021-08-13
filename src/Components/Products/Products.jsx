@@ -5,6 +5,7 @@ import Section from "../Section/Section";
 function Products ({listName,productList, isPopular, isRecommended, isTopRated}) {
 
     return(
+
         <Section bgColor="#EEF3F4">
         <section className="products">
             <div className="products-section">
@@ -14,21 +15,13 @@ function Products ({listName,productList, isPopular, isRecommended, isTopRated})
                 </div>
                 <div className="products-section-box">
 
-                {productList.map((product) => {
-                    if (isPopular){
-                        if (product.isPopular){
-                            return <Product name={product.name} info={product.info} price={product.price}/>;
+                {
+                    productList.map((productItem)=>{
+                            return <Product name={productItem.name} info={productItem.info} price={productItem.price}/>
                         }
-                    }else if(isRecommended){
-                        if (product.isRecommended){
-                            return <Product name={product.name} info={product.info} price={product.price}/>;
-                        }
-                    }else if (isTopRated){
-                        if (product.isTopRated){
-                            return <Product name={product.name} info={product.info} price={product.price}/>;
-                        }
-                    }
-				})}
+                        )
+                }
+
                 </div>
             </div>
         </section>

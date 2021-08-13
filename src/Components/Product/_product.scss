@@ -1,7 +1,7 @@
 .product {
   // width: 251px;
   // height: 462px;
-  background-color: $bgc3;
+  // background-color: $bgc3;
   position: relative;
   font-family: $primaryFont;
 
@@ -25,11 +25,12 @@
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
+    background-color: $white;
   }
 
   .product-info {
     padding-top: 15px;
-    background-color: $bgc2;
+    background-color: transparent;
 
     p {
       font-size: 1.2rem;

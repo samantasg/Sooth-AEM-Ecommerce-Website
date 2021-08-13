@@ -10,11 +10,12 @@ import {ingredients} from "../Mockups/ingredients";
 import Section from "../Section/Section";
 import Image from "../../assets/man-in-blue-top.png";
 import Image2 from "../../assets/sincerely-media.png";
+import Layout from "../Layout/Layout";
 
 function Homepage(){
     return (
 		<>
-			<Hero name="All Natural Skin Remedies."/>
+			      <Hero name="All Natural Skin Remedies."/>
             <Banner2 />
             <Products listName="Most Popular" productList={items} isPopular></Products>
             <Section bgColor="#547665"><ShopMore background={Image} title="Clean products that deliver better solutions" info="A healthier you from the inside out. We’ve sourced the cleanest ingredients to create a line of clean skin care treatments that leave you feeling your best"></ShopMore></Section>
