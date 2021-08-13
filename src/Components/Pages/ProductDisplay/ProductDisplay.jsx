@@ -1,10 +1,11 @@
 import React from 'react';
 import Section from '../../Section/Section';
-import Heading from '../../Heading/Heading';
+import {Heading, Heading4} from '../../Heading/Heading';
 import { BodyText, BodyText3, BodyText4 } from '../../BodyText/BodyText';
 import Button from '../../Button/Button';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
+import Products from '../../Products/Products';
 
 function ProductDisplay() {
     return (

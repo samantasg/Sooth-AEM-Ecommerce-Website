@@ -1,0 +1,23 @@
+.recent-news {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+  
+    .instagram-posts {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 24px;
+      padding-top: 64px;
+      padding-bottom: 160px;
+      background-color: cornflowerblue;
+  
+      div {
+        height: 346px;
+        background-color: chartreuse;
+        background-image: url('/src/assets/yue-iris.png');
+        background-size: 100%;
+      }
+    }
+  }
