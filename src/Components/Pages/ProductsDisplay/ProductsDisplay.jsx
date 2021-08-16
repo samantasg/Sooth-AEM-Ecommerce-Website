@@ -7,6 +7,9 @@ import Image from "../../../assets/curology.png";
 import Products from '../../Products/Products';
 import { useParams} from "react-router";
 import { allCategories } from '../../Mockups/allCategories';
+import Dropdown from '../../Dropdown/Dropdown';
+import Hero from '../../Hero/Hero';
+import bgImg from "../../../assets/cactus.png";
 
 function ProductsDisplay() {
     const params = useParams();
@@ -20,7 +23,9 @@ function ProductsDisplay() {
 
     return (
         <>
+        <Section bgColor="#F6F6F8" bgImg={bgImg}><Hero name="All Natural Psoriasis"/></Section>
         <Section bgColor="#EEF3F4">
+        <div className="dropdown-menu-container"><Dropdown></Dropdown></div>    
         <div className="products-display">
             <aside>
                 <ul className="menu-navigation">{allCategories.map(cat => (

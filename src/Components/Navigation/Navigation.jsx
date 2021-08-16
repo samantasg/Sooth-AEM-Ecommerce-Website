@@ -18,8 +18,8 @@ function Navigation() {
 				</ul>
 				<Link to="/"><p>sooth</p></Link>
 				<ul>
-				  <li><a href=""><FontAwesomeIcon color='#2E2E22' icon={faSearch} style={{marginRight: 40}} ></FontAwesomeIcon>Cart</a></li>
-				  <Link to="/login"><li><a href="">Login</a></li></Link>
+				  <li><a href="/"><FontAwesomeIcon color='#2E2E22' icon={faSearch} style={{marginRight: 40}} ></FontAwesomeIcon>Cart</a></li>
+				  <Link to="/login"><li><a href="/">Login</a></li></Link>
 				</ul>
 			  </div>
 			</div>

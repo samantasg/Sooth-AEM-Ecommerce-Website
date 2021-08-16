@@ -622,7 +622,7 @@ html {
 
 .products-display {
   width: 100%;
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 50px;
   background-color: #eef3f4;
   display: -webkit-box;
@@ -655,6 +655,22 @@ html {
 .products-display .menu-navigation ul li:hover {
   background-color: #e0e4e7;
   cursor: pointer;
+}
+
+.dropdown-menu-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-top: 86px;
+  font-family: "Proxima Nova";
+  font-size: 1.4rem;
+}
+
+.dropdown-menu-container .dropdown-menu {
+  width: 247px;
 }
 
 .products-component-grid {
@@ -787,6 +803,17 @@ html {
   height: 64px;
   background-color: cadetblue;
   margin-bottom: 20px;
+}
+
+.product-display-container .product-display-info .product-shopping-details .shipping-details .accordion-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.4rem;
+  font-weight: bold;
 }
 
 .instagram-posts {
