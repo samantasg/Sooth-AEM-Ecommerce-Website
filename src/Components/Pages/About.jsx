@@ -4,6 +4,7 @@ import ShopMore from '../ShopMore/ShopMore';
 import Section from '../Section/Section';
 import Image3 from "../../assets/person-in-white-long-sleeve-shirt.png";
 import Image4 from "../../assets/human-hand-and-five-leaves.png";
+import bgImg from "../../assets/cactus.png"
 import InstagramPosts from "../InstagramPosts/InstagramPosts";
 import RecentNews from "../RecentNews/RecentNews";
 import Heading from '../Heading/Heading';
@@ -12,7 +13,7 @@ import { BodyText5 } from '../BodyText/BodyText';
 function About() {
     return (
         <div>
-            <Hero name="Our mission is a healthier you"></Hero>
+            <Section bgColor="#EEF3F4" bgImg={bgImg}><Hero name="Our mission is a healthier you"></Hero></Section>
             <Section><div style={{height: 300, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center"}}>
                 <Heading>The cleanest ingredients on earth</Heading>
                 <BodyText5 style={{width: 874}}>Our mission back then was simple, and it remains the same today. When in doubt, turn to food first. Nothing works better. When you can’t, take our supplements.</BodyText5>
