@@ -8,6 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import { items } from '../../Mockups/items';
 import { useParams } from 'react-router';
+import ImageSlider from '../../ImageSlider/ImageSlider';
 
 function ProductDisplay() {
   const params = useParams();
@@ -17,7 +18,7 @@ function ProductDisplay() {
     <Section bgColor="#EEF3F4">
       <div className="product-display-container">
         <div className="product-display-imgs">
-          <div className="product-img">
+          {/* <div className="product-img">
             <div className="arrow left"></div>
             <div className="arrow right"></div>
           </div>
@@ -26,7 +27,8 @@ function ProductDisplay() {
             <div></div>
             <div></div>
             <div></div>
-          </div>
+          </div> */}
+          <ImageSlider></ImageSlider>
         </div>
 
         <div className="product-display-info">
